@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dd98b6d19d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="design">
+                <div class= "circle"> </div>
+            </div> 
+            <nav>
+                <img src="images/logo1.PNG" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER and LEARNER</p>
+                <h1>Hi, i am <span>Saneha Rani</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+        <div class="row">
+                <div class="about-col-1">
+                <img src="images/user2.png"></div>
+                <div class="about-col-2">
+                <h1 class="sub-title"> About Me</h1>
+                <p> Hello! I'm Saneha Rani , a passionate student at Banasthali Vidyapeeth, currently in my first year of B.tech specialized with Electronics and Communication. I am passionate about web develpment and Designing.
+                    During my time at my college , I have gained practical experience through making projects, by doing online internship and taking part in coding rounds, where I have developed skills in technologies. I am also actively involved in clubs, organizations, or extracurricular activities, which has enriched my understanding and network within the field.
+                    One of my most rewarding experiences has been taking part in the biggest fest of my college as a team member of the whole fest. This opportunity allowed me to know about my abilities how to manage a team, further igniting my passion for doing teamwork.
+                    In my free time, I enjoy learing some Designing concepts, which help me maintain a balanced lifestyle and inspire my academic endeavors.
+                    Feel free to reach out to me . I’m always excited to discuss new opportunities and collaborations!
+                    Thank You!  
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link "onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick= "opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Making website for personal use and some games</li>
+                        <li><span>UI/UX</span><br>Designing Web/App and logos</li>
+                        <li><span>App Developmentt</span><br>Building Andriod/iOS apps</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>As a contributor </span><br>GSSoC'24 • SSoC'S3 • TCSoC'24</li>
+                        <li><span>Selected ideathons</span><br>Ideaathon in Bnasthali Vidyapeeth<br>  SHE ideates  </li>
+                        <li><span>Volunteering </span><br>NSS at Banasthali vidyapeeth 
+                           <br> Informal Education at Banasthali vidyapeeth
+                            </li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2020</span><br> DR. G.L DUTTA D.A.V Public School,Bihar—X</li>
+                        <li><span>2022</span><br>Savvy International, Gujarat — XII</li>
+                        <li><span>July 2023- May 2027</span><br> Banasthali Vidyapeeth, Rajasthan —B.tech ECE</li>
+                        
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+           <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>  I believe in a user-centered design approach, where understanding the target audience is crucial. My design process includes thorough research, wireframing, prototyping, and iterative testing to ensure the final product meets both client goals and user needs.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>A Journey Through Innovative UI/UX Design - This project showcases our latest efforts in creating intuitive, user-friendly interfaces that enhance digital interactions. By focusing on user needs and leveraging cutting-edge design principles, we've crafted a seamless experience that delights and engages users at every touchpoint.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p> This project highlights our commitment to creating intuitive, user-friendly app interfaces that transform digital interactions. By prioritizing user needs and employing cutting-edge design principles, we've developed an app that delivers a seamless and engaging experience at every touchpoint.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3> Social Media App</h3>
+                            <p> Connecting People, Redefining Social: Our Innovative Social Media App Design.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3> Music App</h3>
+                            <p> Elevate Your Sound Experience: Our Cutting-Edge Music App Design.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3> Online shopping  App</h3>
+                            <p>Transforming Retail: Our Sleek Online Shopping App Design.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                    <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> s2000neha@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09316458102</p>
+                <div class="social-icons">
+                    
+                    <a href="https://www.instagram.com/sneha.nyx/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/Snehanyx"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/snehanyx"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sneha-rani-aa0a80288/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download CV </a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+
+    </div>
+<div class="copyright">
+    <p>Copyright @ Saneha Rani her personal portfolio <i class="fa-solid fa-heart"></i></p>
+</div>
+
+
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbzpKp0dAgumFFlF_0cZ185TgF8ElarirhSf2pNaWXQCgEQRZ4IzHK75f7i4ymvUXpFA/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
